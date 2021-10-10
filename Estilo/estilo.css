@@ -2,10 +2,10 @@
   font-family: Helvetica, sans-serif;
 }
 h1{
-  color:lawngreen;
+  color:green;
 }
 h2{
-  color:deepskyblue;
+  color:blue;
 }
 h3{
   color: orangered;
@@ -14,7 +14,9 @@ p{
   font-size: 1em;
   text-align: justify;
 }
-
+li{
+  line-height: 1.8;
+}
 img {
     width: 25%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
     height: auto;

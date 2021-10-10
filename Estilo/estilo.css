@@ -1,9 +1,25 @@
-
-
+*{
+  font-family: Helvetica, sans-serif;
+}
+h1{
+  color:lawngreen;
+}
+h2{
+  color:deepskyblue;
+}
+h3{
+  color: orangered;
+}
+p{
+  font-size: 1em;
+  text-align: justify;
+}
 
 img {
-    width: 100%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
+    width: 25%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
     height: auto;
+    margin: auto;
+    display: block;
   }
   
   Para evitar que se amplie más que su tamaño real

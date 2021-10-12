@@ -18,7 +18,7 @@ li{
   line-height: 1.8;
 }
 img {
-    width: 25%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
+    width: 33%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
     height: auto;
     margin: auto;
     display: block;
@@ -30,3 +30,16 @@ img {
     max-width: 100%;
     height: auto;
   }
+
+  table {
+    width: 33%;
+    border: 1px solid #14BDF5;
+    background: #14BDF5;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    border: 1px solid #14BDF5;
+    background: white;
+    border-collapse: collapse;
+ }

@@ -24,8 +24,10 @@
     <h2>¡Comenta acerca del sistema operativo Windows?</h2>
     <p>Rellena el formulario y haznos saber que opinas del sistema operativo Windows</p>
     <form name="datos">
-        <input type="text">Nombre <br>
-        <input type="text">Apellidos <br>
+        <!--<input type="text">Nombre <br>
+        <input type="text">Apellidos <br>-->
+        <input type="text" placeholder="Nombre"><br>
+        <input type="text" placeholder="Apellidos"><br>
         <label>¿Has usado Windows?</label><br>
         <fieldset>
             <legend>Especifica si has usado Windows</legend>
@@ -33,7 +35,7 @@
             <input type="radio" name=uso value="No">No <br>
         </fieldset>
         <label>¿Danos tu opinión sobre Windows?</label><br>
-        <textarea cols="60" rows="10"></textarea>
+        <textarea cols="60" rows="10" placeholder="Escriba su comentario"></textarea>
         <input type="submit" value="Enviar">
     </form>
 </body>

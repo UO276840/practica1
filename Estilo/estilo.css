@@ -1,6 +1,12 @@
 *{
   font-family: Helvetica, sans-serif;
+
 }
+
+body{
+  background-color: #5f9;
+}
+
 h1{
   color:#00C01C;
 }
@@ -10,12 +16,76 @@ h2{
 h3{
   color: orangered;
 }
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+  background-color: #5f9;
+}
 p{
   font-size: 1em;
   text-align: justify;
+  color: #333;
 }
 li{
   line-height: 1.8;
+}
+textarea{
+  color: white;
+  background-color: #333;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #5f9;
+  height: 200px;
+  margin: 6px 0;
+  width: 100%;
+  font-size: 15px;
+  resize: none;
+}
+form{
+  background-color: #333;
+  color: #5f9;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 50px;
+  margin-right: 50%;
+  padding: 20px;
+  text-align: left;
+  flex: 1;
+}
+input{
+  color: white;
+  background-color: #333;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #5f9;
+  height: 30px;
+  margin: 6px 0;
+  width: 100%;
+  font-size: 15px;
+  
+}
+input:focus{
+  background: linear-gradient(to bottom, transparent, rgb(223, 223, 223));
+}
+textarea:focus{
+  background: linear-gradient(to bottom, transparent, rgb(223, 223, 223));
+
+}
+input[type="submit"]{
+  background-color: #5f9;
+}
+input[type="submit"]:hover{
+  background-color: rgb(2, 190, 77);
+}
+
+label{
+  margin-top: 10px;
 }
 img {
     width: 33%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
@@ -33,13 +103,13 @@ img {
 
   table {
     width: 33%;
-    border: 1px solid #14BDF5;
-    background: #14BDF5;
+    border: 1px solid #333;
+    background: #333;
  }
  th, td {
     width: 25%;
     text-align: left;
-    border: 1px solid #14BDF5;
+    border: 1px solid #333;
     background: white;
     border-collapse: collapse;
  }

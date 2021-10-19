@@ -1,0 +1,90 @@
+
+
+  h2{
+    margin-left: 88px;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 88px;
+    width: 85%;
+    padding: 10px;
+  }
+  
+  p{
+    font-size: 1em;
+    text-align: justify;
+    margin: 15px;
+  }
+  nav{
+    margin: 0 88px;
+  }
+  footer{
+    display: flex;
+    margin-top: 44px;
+    
+  }
+
+  nav>ul>li{
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+  }
+  
+  textarea{
+    height: 200px;
+    margin: 6px 0;
+    width: 100%;
+    resize: none;
+    outline: none;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 50px 50px;
+    padding: 20px;
+    align-content: center;
+  }
+  input{
+    outline: none;
+    height: 30px;
+    margin: 6px 0;
+    width: 100%;
+  }
+  
+  fieldset{
+    display: flex;
+    width: 98%;
+    margin: 6px 0;
+    text-align: left;
+  }
+  label{
+    margin-top: 10px;
+  }
+  img {
+      width: 33%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
+      height: auto;
+      margin: auto;
+      display: block;
+    }
+    
+    Para evitar que se amplie más que su tamaño real
+    
+    video{
+      max-width: 100%;
+      height: auto;
+    }
+  
+    table {
+      margin: 15px;
+      width: 33%;
+   }
+  
+   th, td {
+      width: 25%;
+      text-align: left;
+      border-collapse: collapse;
+   }

@@ -7,12 +7,10 @@ body{
   background-color: #5f9;
 }
 
-h1{
+header{
   color: #333;
 }
-h2{
-  color:#333;
-}
+
 h3{
   color: #5f9;
   font-size: 25px;
@@ -22,82 +20,57 @@ h4{
   font-size: 20px;
 }
 main{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-  width: 85%;
-  padding: 10px;
   background-color: #333;
+  border: 10px ridge aquamarine;
 }
 
 p{
-  font-size: 1em;
-  text-align: justify;
   color: #5f9;
-  margin: 15px;
 }
 
 ul{
-  border: 3px rgb(85, 255, 227);
-  margin: auto;
-  width: 86%;
-  padding: 10px;
-  background-color: inherit;
-}
-
-nav>ul>li{
-  border-top: 3px solid #5f9;
-}
-
-li{
-  line-height: 1.8;
   background-color: #333;
   color: #5f9;
 }
+li{
+  color: #5f9;
+
+}
+nav>ul{
+  /*border-bottom: 3px solid #5f9;*/
+  border: 10px ridge aquamarine;
+  
+}
+footer{
+  background-color: #333;
+  border: 10px ridge aquamarine;
+}
+
 a{
   color: rgb(85, 255, 227);
 }
 textarea{
   color: white;
   background-color: #333;
-  outline: none;
   border: 3px solid rgb(25, 83, 49);
   border-bottom: 3px solid #5f9;
   border-top: 3px #333;
-  height: 200px;
-  margin: 6px 0;
-  width: 100%;
   font-size: 15px;
-  resize: none;
 }
 form{
   background-color: #333;
   color: #5f9;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  margin: 50px 50px;
-  padding: 20px;
-  align-content: center;
 }
 input{
   color: white;
   background-color: #333;
-  outline: none;
   border: 3px solid rgb(25, 83, 49);
   border-bottom: 3px solid #5f9;
   border-top: 3px #333;
-  height: 30px;
-  margin: 6px 0;
   font-size: 15px;
 }
 
 fieldset{
-  display: flex;
-  width: 98%;
-  margin: 6px 0;
-  text-align: left;
   border-color: #5f9;
 }
 input:focus{
@@ -109,43 +82,18 @@ textarea:focus{
 }
 input[type="submit"]{
   background-color: #5f9;
+  color: #333;
 }
-input[type="text"]{
-  width: 100%;
 
-}
 input[type="submit"]:hover{
   background-color: rgb(2, 190, 77);
 }
-
-label{
-  margin-top: 10px;
-}
-img {
-    width: 33%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
-    height: auto;
-    margin: auto;
-    display: block;
-  }
-  
-  Para evitar que se amplie más que su tamaño real
-  
-  video{
-    max-width: 100%;
-    height: auto;
-  }
-
-  table {
-    margin: 15px;
-    width: 33%;
+table {
     border: 1px solid rgb(113, 247, 235);;
     background: #333;
  }
 
  th, td {
-    width: 25%;
-    text-align: left;
     border: 1px solid #333;
     background: #5f9;
-    border-collapse: collapse;
  }

@@ -92,15 +92,6 @@ textarea:focus{
   background: linear-gradient(to bottom, transparent, rgb(223, 223, 223));
 
 }
-/*011*/
-input[type="submit"]{
-  background-color: #5f9;
-  color: #333;
-}
-/*021*/
-input[type="submit"]:hover{
-  background-color: rgb(2, 190, 77);
-}
 /*001*/
 table {
     border: 1px solid rgb(113, 247, 235);;

@@ -1,38 +1,56 @@
 
 
   h2{
-    margin-left: 88px;
+    margin-left: 6%;
   }
 
   main{
     display: flex;
+    justify-content: center;
+    margin: 0 6%;
+    padding: 10px;
+    width: auto;
+    flex-direction: column;
+
+  }
+  
+  body{
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 88px;
-    padding: 10px;
+    flex-wrap: wrap;
+    min-width: 300px;
+    
   }
   
   p{
-    font-size: 1em;
     text-align: justify;
-    margin: 15px;
+    margin: 1%;
   }
   nav{
-    margin: 0 88px;
+    margin: 0 6%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   footer{
-    display: flex;
     margin-top: 44px;
+    padding: 10px;
     
   }
 
-  nav>ul>li{
+  header>nav>ul>li{
     padding: 10px;
     text-align: center;
     list-style: none;
+    list-style-type: none;
+  }
+
+  header>nav>ul{
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    list-style-type: none;
   }
   
   textarea{
@@ -46,14 +64,14 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin: 50px 50px;
+    margin: 0 6%;
     padding: 20px;
     align-content: center;
   }
   input{
     outline: none;
     height: 30px;
-    margin: 6px 0;
+    margin: 0.5% 0;
     width: 100%;
   }
   
@@ -72,17 +90,21 @@
       margin: auto;
       display: block;
     }
-    
-    Para evitar que se amplie más que su tamaño real
-    
+    audio{
+        max-width: 100%;
+        height: auto;
+        margin:auto; 
+    }
     video{
       max-width: 100%;
       height: auto;
+      margin:auto;
     }
   
     table {
-      margin: 15px;
+      margin: 1%;
       width: 33%;
+      height: auto;
    }
   
    th, td {

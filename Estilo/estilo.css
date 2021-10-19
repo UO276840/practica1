@@ -25,6 +25,7 @@ main{
 }
 
 p{
+  font-size: 1em;
   color: #5f9;
 }
 
@@ -96,4 +97,7 @@ table {
  th, td {
     border: 1px solid #333;
     background: #5f9;
+ }
+ th{
+   font-size: 0.9em;
  }

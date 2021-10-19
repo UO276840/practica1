@@ -1,9 +1,9 @@
 
-
+/*001*/
   h2{
     margin-left: 6%;
   }
-
+/*001*/
   main{
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@
     flex-direction: column;
 
   }
-  
+  /*001*/
   body{
     display: flex;
     flex-direction: column;
@@ -22,37 +22,39 @@
     min-width: 300px;
     
   }
-  
+  /*001*/
   p{
     text-align: justify;
     margin: 1%;
   }
+  /*001*/
   nav{
     margin: 0 6%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+  /*001*/
   footer{
     margin-top: 44px;
     padding: 10px;
     
   }
-
+    /*004*/
   header>nav>ul>li{
     padding: 10px;
     text-align: center;
     list-style: none;
     list-style-type: none;
   }
-
+    /*003*/
   header>nav>ul{
     padding: 10px;
     text-align: center;
     list-style: none;
     list-style-type: none;
   }
-  
+  /*001*/
   textarea{
     height: 200px;
     margin: 6px 0;
@@ -60,6 +62,7 @@
     resize: none;
     outline: none;
   }
+  /*001*/
   form{
     display: flex;
     flex-direction: column;
@@ -68,45 +71,50 @@
     padding: 20px;
     align-content: center;
   }
+  /*001*/
   input{
     outline: none;
     height: 30px;
     margin: 0.5% 0;
     width: 100%;
   }
-  
+  /*001*/
   fieldset{
     display: flex;
     width: 98%;
     margin: 6px 0;
     text-align: left;
   }
+  /*001*/
   label{
     margin-top: 10px;
   }
+  /*001*/
   img {
       width: 33%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
       height: auto;
       margin: auto;
       display: block;
     }
+    /*001*/
     audio{
         max-width: 100%;
         height: auto;
         margin:auto; 
     }
+    /*001*/
     video{
       max-width: 100%;
       height: auto;
       margin:auto;
     }
-  
+  /*001*/
     table {
       margin: 1%;
       width: 33%;
       height: auto;
    }
-  
+  /*002*/
    th, td {
       width: 25%;
       text-align: left;

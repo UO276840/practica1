@@ -1,55 +1,62 @@
+/*000*/
 *{
   font-family: Helvetica, sans-serif;
 
 }
-
+/*001*/
 body{
   background-color: #5f9;
 }
-
+/*001*/
 header{
   color: #333;
 }
-
+/*001*/
 h3{
   color: #5f9;
   font-size: 25px;
 }
+/*001*/
 h4{
   color: rgb(113, 247, 235);
   font-size: 20px;
 }
+/*001*/
 main{
   background-color: #333;
   border: 10px ridge aquamarine;
 }
-
+/*001*/
 p{
   font-size: 1em;
   color: #5f9;
 }
-
+/*001*/
 ul{
   background-color: #333;
   color: #5f9;
 }
+/*001*/
 li{
   color: #5f9;
 
 }
+/*002*/
 nav>ul{
   /*border-bottom: 3px solid #5f9;*/
   border: 10px ridge aquamarine;
   
 }
+/*001*/
 footer{
   background-color: #333;
   border: 10px ridge aquamarine;
 }
-
+/*001*/
 a{
   color: rgb(85, 255, 227);
 }
+/*001*/
 textarea{
   color: white;
   background-color: #333;
@@ -58,10 +65,12 @@ textarea{
   border-top: 3px #333;
   font-size: 15px;
 }
+/*001*/
 form{
   background-color: #333;
   color: #5f9;
 }
+/*001*/
 input{
   color: white;
   background-color: #333;
@@ -70,34 +79,39 @@ input{
   border-top: 3px #333;
   font-size: 15px;
 }
-
+/*001*/
 fieldset{
   border-color: #5f9;
 }
+/*011*/
 input:focus{
   background: linear-gradient(to bottom, transparent, rgb(223, 223, 223));
 }
+/*011*/
 textarea:focus{
   background: linear-gradient(to bottom, transparent, rgb(223, 223, 223));
 
 }
+/*011*/
 input[type="submit"]{
   background-color: #5f9;
   color: #333;
 }
-
+/*021*/
 input[type="submit"]:hover{
   background-color: rgb(2, 190, 77);
 }
+/*001*/
 table {
     border: 1px solid rgb(113, 247, 235);;
     background: #333;
  }
-
+/*002*/
  th, td {
     border: 1px solid #333;
     background: #5f9;
  }
+ /*001*/
  th{
    font-size: 0.9em;
  }
